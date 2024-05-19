@@ -127,6 +127,29 @@ body {
     clip-path: path("M0 40 Q80 10 160 40 Q240 70 320 40 Q400 10 480 40 Q560 70 640 40 Q720 10 800 40 Q880 70 960 40 Q1040 10 1120 40 Q1200 70 1280 40 Q1360 10 1440 40 L1440 0 L0 0 Z");
 }
 
+@media(max-width: 1199px) {
+    .footer {
+        padding: 40px 0;
+    }
+    
+    .footer-row {
+        padding: 15px;
+    }
+    
+    .links {
+        margin: 15px;
+    }
+    
+    .redes span {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+    }
+    
+    .footer-bottom-wrapper {
+        padding: 2rem 4rem;
+    }
+}
 
  @media(max-width: 991px){
     .footer-row{
@@ -139,7 +162,7 @@ body {
         margin-bottom: 30px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .footer-row {
         flex-direction: column;
         align-items: center;
